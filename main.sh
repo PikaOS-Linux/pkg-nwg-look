@@ -5,7 +5,7 @@ DEBIAN_FRONTEND=noninteractive
 # Clone Upstream
 git clone --recurse-submodules https://github.com/nwg-piotr/nwg-look
 cd nwg-look
-git checkout v0.2.2
+git checkout v0.2.4
 cp -rvf ../debian ./
 cp -vf ../Makefile ./Makefile
 
